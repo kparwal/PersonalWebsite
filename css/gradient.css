@@ -1,40 +1,10 @@
-.gradient {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#22c222+26,398939+100 */
-  padding: 0;
-  margin: 0;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa84c+7,ff7b0d+100 */
-  background: rgb(255, 168, 76);
-  /* Old browsers */
-  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iNyUiIHN0b3AtY29sb3I9IiNmZmE4NGMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmY3YjBkIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 168, 76, 1) 7%, rgba(255, 123, 13, 1) 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(7%, rgba(255, 168, 76, 1)), color-stop(100%, rgba(255, 123, 13, 1)));
-  /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 168, 76, 1) 7%, rgba(255, 123, 13, 1) 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, ellipse cover, rgba(255, 168, 76, 1) 7%, rgba(255, 123, 13, 1) 100%);
-  /* Opera 12+ */
-  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 168, 76, 1) 7%, rgba(255, 123, 13, 1) 100%);
-  /* IE10+ */
-  background: radial-gradient(ellipse at center, rgba(255, 168, 76, 1) 7%, rgba(255, 123, 13, 1) 100%);
-  /* W3C */
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d', GradientType=1);
-  /* IE6-8 fallback on horizontal gradient */
-  /* IE6-8 fallback on horizontal gradient */
-  height: 100vh;
-  width: 100vw;
-  /*position: fixed;
-  z-index: -1;*/
-}
-
 body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
   background-color: transparent;
   background-image: url("../gradientbg.svg");
-  background-size: 100vw;
+  background-size: 110vw 110vh;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -67,6 +37,23 @@ svg {
   height: 100px;
 }
 
+.padding-div {
+  height : 40vh;
+}
+
 .subtitle {
   margin-bottom: 20px;
+}
+
+.parent2 i {
+  margin-top: 13px;
+}
+
+.parent2 .mask2 i {
+  margin-top: 24px;
+}
+
+.title {
+  margin: auto;
+  display: block;
 }
